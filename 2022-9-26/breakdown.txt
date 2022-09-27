@@ -1,0 +1,22 @@
+We need a function that can transform a number (integer) into a string.
+
+What ways of achieving this do you know?
+
+For example: 
+123  --> "123"
+999  --> "999"
+-100 --> "-100"
+
+Paremeters: What happens if we are given special characters? what if we are given 0?
+
+Return: Return the integer transformed into a string
+
+Examples: 
+ if we are given 69123, should return "69123"
+ if we are given 23, should return "23"
+ if we are given 007, should return "007"
+
+ Pseudo: 
+ Make a function that takes in an integer as a parameter
+ use a method thats applicable to an integer that transforms said integer into a string
+ return the string
