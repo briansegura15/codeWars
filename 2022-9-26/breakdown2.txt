@@ -1,0 +1,15 @@
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+P: will the argument always be an integer?
+R: return the string "Even" for even numbers or "Odd" for odd numbers
+
+E:
+if we are given 3, should return "Odd"
+if we are given 2, should return "Even"
+if we are given 1, should return "Odd"
+
+P:
+Make a function that takes an integer as a parameter
+Use an if statement or ternary to see if the parameter is odd or even
+use the % operator to determine odd or even
+return string with correct value

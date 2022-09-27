@@ -1,0 +1,23 @@
+Given an array of integers your solution should find the smallest integer.
+
+For example:
+
+Given [34, 15, 88, 2] your solution will return 2
+Given [34, -345, -1, 100] your solution will return -345
+You can assume, for the purpose of this kata, that the supplied array will not be empty.
+
+P: Array will not be empty. If supplied with a negative number then obviously that is the smallest integer.
+
+R: Return the smallest integer
+
+E: 
+If we are given [2, 155, 69, 23], should return 2
+If we are given [-23, 43, 57, 99], should return -23
+If we are given [189, 2345, 11, 0], should return 0
+
+P:
+We receieve an array of integers
+Find a way to iterate over the elements in the array 
+<---- After researching the best way is to use Rest Parameters ----->
+determine the smallest integer
+return said integer
