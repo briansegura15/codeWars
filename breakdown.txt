@@ -1,0 +1,25 @@
+Return the number (count) of vowels in the given string.
+
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+
+
+
+P: Y will never be a vowel in this challenge. What if there are no vowels?
+
+R: Return the total amount or count of vowels in a given string
+
+E:
+If we are given "Hello", we should return 2
+If we are given "Bye", we should return 1
+If we are given "Goodnight", we should return 3
+
+P:
+
+We create a function
+inside that function we identify and establish what are vowels
+we create a loop to shuffle through the given string
+we create a variable named count and it starts at 0
+if elements in our string match up with vowels then our count goes up by each vowel
+return count
