@@ -1,0 +1,30 @@
+Messi is a soccer player with goals in three leagues:
+
+LaLiga
+Copa del Rey
+Champions
+Complete the function to return his total number of goals in all three leagues.
+
+Note: the input will always be valid.
+
+For example:
+
+5, 10, 2  -->  17
+
+
+
+P: Do own goals count? WHat if he doesnt score in a leagues?
+
+R: Return the total score tally from all 3 leagues
+
+E: 
+2 goals in La Liga, 2 goals in Copa, 5 goals in Champions, should return 9
+10 goals in La Liga, 1 goals in Copa, 20 goals in Champions, should return 31
+20 goals in La Liga, 10 goals in Copa, 10 goals in Champions, should return 40
+
+P:
+
+Ceate a function
+the function takes 3 parameters, one for each leagues goal total
+add up all the leagues goal tallys
+return the total tally
