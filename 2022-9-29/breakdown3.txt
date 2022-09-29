@@ -1,0 +1,21 @@
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
+invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
+invert([]) == []
+You can assume that all values are integers. Do not mutate the input array/list.
+
+P: will the numbers always be in an array? What if the number if 0
+
+R: All given numbers should be returned in inverse manner
+
+E: 
+Given [1, 4, -10], should return [-1, -4, 10]
+Given [10, 60, -50], should return [10, -60, 50]
+Given [33, -54, -110], should return [-33, 54, 110]
+
+P:
+Create a function
+the parameter should take an array
+use map array method to inact functionality on each element (*-1)
+return inverse of each element in array

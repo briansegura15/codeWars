@@ -1,0 +1,13 @@
+Make a simple function called greet that returns the most-famous "hello world!".
+
+P: What function type should we use? Declaration anonymous arrow?
+
+R: Should return "Hello world!"
+
+E: None to be given
+
+P:
+Create a function
+No parameters
+When the function is called, return the necessary string
+call it

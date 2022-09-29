@@ -1,0 +1,16 @@
+Code as fast as you can! You need to double the integer and return it.
+
+P: will it always be an integer? What if we are given 0?
+
+R: return the parameter doubled
+
+E: 
+Given 2, should return 4
+Given 10, should return 20
+Given 50, should return 100
+
+P:
+
+Create a function
+Take an integer as a parameter
+return parameter doubled
