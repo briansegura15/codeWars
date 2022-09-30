@@ -1,0 +1,15 @@
+Write a function which converts the input string to uppercase.
+
+P: what if input is a number?
+
+R: return the input string to all uppercase
+
+E:
+given hi, return HI
+given adios, return ADIOS
+given mehehe, return MEHEHE
+
+P:
+create a function that takes a string as a parameter
+convert that string to a string in all uppercase
+return uppercase string

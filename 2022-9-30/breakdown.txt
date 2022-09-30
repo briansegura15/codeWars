@@ -1,0 +1,16 @@
+Implement a function which convert the given boolean value into its string representation.
+
+Note: Only valid inputs will be given.
+
+P: what if an integer is given?
+
+R: function should return the boolean value in its string form
+
+E: 
+given true, should return "true"
+given false, should return "false"
+
+P:
+Create a function that takes a boolean value as parameter
+use a method to stringify parameter
+return stringified boolean value
