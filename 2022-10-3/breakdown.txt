@@ -1,0 +1,23 @@
+Your task is to create a function that does four basic mathematical operations.
+
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+Examples(Operator, value1, value2) --> output
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
+
+P: what if a negative integer is given, what if an invalid operator is given
+
+R: function should return val1 combined with whatever val2 is after applying the operator which is the first arguments
+
+E: 
+given +, 10, 4 should return 14
+given *, 1, 8 should return 8
+given -, 30, 2 should return 28
+
+P:
+Create a function that takes in 3 arguments (operator, val1, val2)
+return the result of val1 val2 combined with operator

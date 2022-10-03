@@ -1,0 +1,20 @@
+Write a function to split a string and convert it into an array of words.
+
+Examples (Input ==> Output):
+"Robin Singh" ==> ["Robin", "Singh"]
+
+"I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
+
+P: what if we are given integers or an invalid argument
+
+R: return the argument split into an array of words
+
+E:
+given "Brian Segura" should return ["Brian", "Segura"]
+given "aloha gator raider" should return ["aloha", "gator", "raider"]
+given "tango mango rango" should return ["tango", "mango", "rango"]
+
+P:
+create a function tha takes in a string
+use the split method to split the given string into an array of words
+return array
