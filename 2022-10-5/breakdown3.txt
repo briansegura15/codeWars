@@ -1,0 +1,19 @@
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+
+[10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+P: what if negative integers are given, what if an empty array is given what if strings are given
+
+R: should return the sum of the smallest 2 elements in the array
+
+E: 
+given [1, 2, 3, 4] should return 3
+given [0, 4, 33, 44] should return 4
+given [11, 222, 1, 44] should return 12
+
+P:
+create a function that takes in  an array as a parameter
+use methods to get to the bottom of this sucka
+return the sum of the smallest 2 integers in the array

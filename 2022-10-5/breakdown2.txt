@@ -1,0 +1,16 @@
+Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+
+Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
+
+P: what if there is a third flower introduced? Life can get complicated
+
+R: should return true if the criteria is met or false if not
+
+E: 
+given flower1 is even nd flower2 is odd return true
+given flower1 is odd nd flower2 is even return false
+
+P:
+create a function that takes in 2 parameters representing flowers
+use the Modulo operator to determine if flowers meet criteria
+return true or false accordingly
