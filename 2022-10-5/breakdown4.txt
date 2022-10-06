@@ -1,0 +1,19 @@
+Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
+
+Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+Example:
+n= 5, m=5: 25
+n=-5, m=5:  0
+
+P: if given a negative should return 0, what if we are given a string?
+R: return the total of n * m unless n or m is less than 0
+E:
+given n = 33 m = 1 should return 33
+given n = 5 m = 2 should return 10
+given n = -3 m = 555 should return 0
+P:
+Create a function that takes in 2 numbers
+Use a conditional to check if the numbers are below 0
+if they are not then simply multiply them together
+return total
