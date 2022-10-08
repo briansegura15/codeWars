@@ -1,0 +1,12 @@
+Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+P: what if integers are given in the string
+R: should return the same string with all exclamation marks removed
+E: 
+given hi! should return hi
+given ye! should return ye
+given bye! should return bye
+P:
+create a function that takes a string as a parameter
+use the slice method?
+return the string with no exclamation
