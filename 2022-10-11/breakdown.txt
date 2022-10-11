@@ -1,0 +1,18 @@
+Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. 
+You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. 
+Be careful, there shouldn't be a space at the beginning or the end of the sentence!
+
+
+Example
+['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
+
+P: what if numbers are given as elements in the array
+R: should return the string elements of the array as 1 string with spaces between each word but not at the beginning or end
+E: 
+ given ['hi', 'there', 'fool', 'bye'] should return "hi there fool bye"
+ given ['hello', 'amico', 'feo', 'bye'] should return "hello amico feo bye"
+ given ['ciao', 'friend', 'today', 'ulose'] should return "ciao friend today ulose"
+P:
+create a function that takes in an array
+the array should use the join method to combine all elements into a string
+return the array
