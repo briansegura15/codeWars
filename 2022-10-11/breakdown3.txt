@@ -1,0 +1,20 @@
+Given an array of integers.
+
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 
+0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+Example
+For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+
+P: what if the arrray returns a string 
+R: return the count of all the positives and the sum of negatives respectively
+E:
+given [2,4,6,-1,-2,-3] should return [3, -6]
+given [3,6,9,-2,-4,-6] should return [3, -12]
+given [1,2,3,-5,-5,-5] should return [3, -15]
+P:
+create a function that takes an array as the parameters
+add all the counts of positives and the sum of negatives in the array respectively
+return both total tallies
