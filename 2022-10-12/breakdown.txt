@@ -1,0 +1,16 @@
+Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
+
+Examples
+"This is an example!" ==> "sihT si na !elpmaxe"
+"double  spaces"      ==> "elbuod  secaps"
+
+P: what if an integer is given or null
+R: should return the string after each word has been reversed in place and spaces maintained
+E:
+"hi cowboy" should return "ih yobwoc"
+"bye randy" should return "eyb ydnar"
+"aloha flo" should return "ahola olf"
+P:
+Create a function that takes a string as a parameter
+reverse all words in place and keep spaces as is
+return reversed goodies
