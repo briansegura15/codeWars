@@ -1,0 +1,17 @@
+Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+
+Use conditionals to return the proper message:
+
+case	return
+name equals owner	'Hello boss'
+otherwise	'Hello guest'
+
+P: what if no parameters are given
+R: Should return 2 different strings according to the provided parameters
+E:
+given name = owner, should return "hello boss"
+given name = brian, should return "hello guest"
+P:
+create a function that takes 2 parameters, name and owner
+use conditionals to check for the appropriate name
+return the string according to the argument given
