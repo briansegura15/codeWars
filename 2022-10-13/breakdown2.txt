@@ -1,0 +1,16 @@
+Counting Sheep.
+For every sheep in the array add 1 to the total tally
+true = sheep is present
+
+
+P: what if an empty array or null is given
+R: should return an integer equal to all the trues in the array
+E:
+given [true true false] should return 2
+given [true true true true false] should return 4
+given [true true false false truefalse] should return 3
+P:
+create a function that takes in an array as a parameter
+create a loop to iterate over the given array
+use a conditional if statement to see if true or false is given in the array
+return the amount of times true is given
