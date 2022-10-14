@@ -1,0 +1,20 @@
+Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+Examples (Input -> Output):
+* "String"      -> "SSttrriinngg"
+* "Hello World" -> "HHeelllloo  WWoorrlldd"
+* "1234!_ "     -> "11223344!!__  "
+Good Luck!
+
+P: what if null or an integer is supplied
+R: should return a string where every character of the original string is repeated once
+E:
+given hi should return hhii
+given aloha should return aalloohhaa
+given teehee should return tteeeehheeee
+P:
+create a function that takes in a string as a parameter
+split the string into an array of elements which represent each character
+map over each of the charactesr and add another iteration of the character to it 
+rejoin the array into a string
+return the string with every character repeated once
