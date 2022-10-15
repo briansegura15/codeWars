@@ -1,0 +1,13 @@
+You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+
+Array can contain numbers or strings. X can be either.
+
+Return true if the array contains the value, false if not.
+
+P: what if we are given null or an empty array
+R: should return true of the array contains the value
+E:
+P:
+create a function that takes an array and a value
+use the includes method to check if the array contains the value
+return true if it does
