@@ -1,0 +1,15 @@
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+Note: input will never be an empty string
+
+P: what if the input is an empty string or null
+R: should return an array in binary
+E:
+given 1256 should return 0011
+given 123 should return 000
+given 1999 should return 0111
+P:
+create a function that takes in an string as a parameter
+break the string into an array to target each individual element
+use conditionals to check each element
+return array into string after turned into binary
