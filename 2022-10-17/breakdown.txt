@@ -1,0 +1,18 @@
+You're writing code to control your town's traffic lights. 
+You need a function to handle each change from green, to yellow, to red, and then to green again.
+
+Complete the function that takes a string as an argument representing the current state of the light 
+and returns a string representing the state the light should change to.
+
+For example, when the input is green, output should be yellow.
+
+P: what if the string given is null or nothing at all
+R: should return the next light color in order
+E: 
+given yellow, should return red
+given green, should return yellow
+given red, should return green
+P:
+create a function that takes in a string
+create a switch statement to check for the states of light
+return appropriate light value
