@@ -1,0 +1,21 @@
+Write a program that finds the summation of every number from 1 to num.
+ The number will always be a positive integer greater than 0.
+
+For example:
+
+summation(2) -> 3
+1 + 2
+
+summation(8) -> 36
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+
+P: What if a negative number is given or a null value
+R: Should return the summation of every number from 1 to num
+E:
+given 3 should return 6
+given 2 should return 3
+given 10 should return 55
+P:
+create af function that takes in a num as a parameter
+use some sort of method to summize all numbers between 1 and num
+return total
