@@ -1,0 +1,21 @@
+Oh no!
+Some really funny web dev gave you a sequence of numbers from his API response as an sequence of strings!
+
+You need to cast the whole array to the correct type.
+
+Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a sequence of numbers.
+
+ie:["1", "2", "3"] to [1, 2, 3]
+
+Note that you can receive floats as well.
+
+P: what if we are given NaN or null or an empty sequence of strings
+R: should return the given strings as numbers
+E:
+given "4 5 6" should return 4 5 6 
+given "7 8 9" should return 7 8 9 
+given "410 10 610" should return 410 10 610
+P:
+create a function that takes an array of numbers as strings as a parameter
+convert strings to numbers
+return numbers
