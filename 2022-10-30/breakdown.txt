@@ -1,0 +1,17 @@
+Complete the square sum function so that it squares 
+each number 
+passed into it and then sums the results together.
+
+For example, for [1, 2, 2] it should return 9 
+because 1^2 + 2^2 + 2^2 = 9.
+
+P: what if we are given null or NaN
+R: should return the numbers in the array squared and then added together
+E:
+given 3 3 3 should return 18
+given 1 2 3 should return 11
+given 5 5 5 should return 30
+P:
+create function tha takes in    an array
+square each number in array
+return sum of arrays 
