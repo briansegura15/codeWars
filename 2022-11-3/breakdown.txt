@@ -1,0 +1,21 @@
+You are given the length and width of a 4-sided polygon. 
+The polygon can either be a rectangle or a square.
+If it is a square, return its area. If it is a rectangle, return its perimeter.
+
+Example(Input1, Input2 --> Output):
+
+6, 10 --> 32
+3, 3 --> 9
+Note: for the purposes of this kata you will assume that it is a square if its length 
+and width are equal, otherwise it is a rectangle.
+
+P: what if this is inception and a square is not what it appears
+R: should return area if a square or perimter if a rectangle
+E:
+given 5, 5 should return 25
+given 2, 10 should return 24
+given 3, 5 should return 16
+P:
+create a function that takes in the length and width of a given polygon
+use conditionals to check if the polygon is a square or a rectangle
+return the area or perimeter accordingly
