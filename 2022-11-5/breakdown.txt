@@ -1,0 +1,17 @@
+Write a function that returns a string in which firstname is swapped with last name.
+
+Example(Input --> Output)
+
+"john McClane" --> "McClane john"
+
+P: what if we are given an empty value
+R: should return a string where last name is swapped with first name 
+E:
+given Brian Segura, should return Segura Brian
+given Nate Segura, should return Segura Nate
+given Marissa Segura, should return Segura Marissa.
+P:
+create a function that takes in a string
+that string should reverse the order of names
+use methods to achieve functionality
+Return string in reverse order
