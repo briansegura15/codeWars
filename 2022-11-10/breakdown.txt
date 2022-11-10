@@ -1,0 +1,16 @@
+Fix the function
+I created this function to add five to any number that was passed in to it and return the new value. 
+It doesn't throw any errors but it returns the wrong number.
+
+Can you help me fix the function?
+
+P: what if we are given null or NaN
+R: sh0ould return the new value after adding 5 to it
+E: 
+given 5 should return 10
+given 10 should return 15
+given 15 should return 20
+P:
+create a function that takes in an integer as a parameter
+add 5 to the argument given
+return the final umber
