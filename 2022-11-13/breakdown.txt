@@ -1,0 +1,14 @@
+Given an array of integers as strings and numbers,
+ return the sum of the array values as if all were numbers.
+
+Return your answer as a number.
+
+P: what if we are given null
+R: should return the sum of all elements in the array
+E:
+given [1 2 '3' '4'] should return 10
+P:
+create a function that takes in an array of mixed elements
+turn all elements into integers
+reduce all integers
+return sum of array elements
