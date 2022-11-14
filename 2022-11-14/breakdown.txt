@@ -1,0 +1,20 @@
+When provided with a number between 0-9, 
+return it in words.
+
+Input :: 1
+
+Output :: "One".
+
+If your language supports it,
+ try using a switch statement.
+
+ P: what if we are provided NaN or a string
+ R: should return the value of the integer but in string form
+ E: 
+ given 3 should return "Three"
+ given 9 should return "Nine"
+ given 2 should return "Two"
+ P:
+ Create a function that takes in an integer as a parameter
+ use a switch statement to turn the argument into a string
+ return the string
