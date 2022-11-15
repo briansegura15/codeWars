@@ -1,0 +1,26 @@
+Story
+Ben has a very simple idea to make some profit: he buys something and sells it again. 
+Of course, this wouldn't give him any profit at all if he was simply to buy and sell it at the same price. 
+Instead, he's going to buy it for the lowest possible price and sell it at the highest.
+
+Task
+Write a function that returns both the minimum and maximum number of the given list/array.
+
+Examples (Input --> Output)
+[1,2,3,4,5] --> [1,5]
+[2334454,5] --> [5,2334454]
+[1]         --> [1,1]
+Remarks
+All arrays or lists will always have at least one element, so you don't need to check the length. 
+Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
+
+P: no undefined or null or values of such will be provided
+R: should return the lowest and highest elements of the array
+E: 
+given [1 4 5] should return [1 5]
+given [0 2 5 1003] should return [0 1003]
+given [44 34 599] should return [34 599]
+P: 
+create a function that takes in an array as a parameter
+find the min and the max elements in the array
+return min and max
