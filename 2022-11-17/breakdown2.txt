@@ -1,0 +1,24 @@
+Create a function that takes 2 integers in form of a string as an input, and outputs the sum (also as a string):
+
+Example: (Input1, Input2 -->Output)
+
+"4",  "5" --> "9"
+"34", "5" --> "39"
+"", "" --> "0"
+"2", "" --> "2"
+"-5", "3" --> "-2"
+Notes:
+
+If either input is an empty string, consider it as zero.
+
+Inputs and the expected output will never exceed the signed 32-bit integer limit (2^31 - 1)
+
+P: what if they supply a letter or null
+R: return the sum of both integers supplied but in string form
+E:
+given 10 and 10 should return "20"
+given 45 and 10 should return "55"
+given 33 and 3 should return "36"
+P:
+create a function that takes in 2 integers in the form of strings
+return the sum of the integers also in the form of strings
