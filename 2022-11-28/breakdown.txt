@@ -1,0 +1,25 @@
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. 
+Implement a function that determines whether a string that contains only letters is an isogram. 
+Assume the empty string is an isogram. Ignore letter case.
+
+Example: (Input --> Output)
+
+"Dermatoglyphics" --> true "aba" --> false "moOse" --> false (ignore letter case)
+
+isIsogram "Dermatoglyphics" = true
+isIsogram "moose" = false
+isIsogram "aba" = false
+
+P:
+what if we are given numbers or null
+R:
+should return false if any letters repeat or true if they dont
+E:
+given hiya should return true
+given hello should return false
+given mehe should return false
+P:
+create a function that takes in a string as an argument
+use toLowerCase in order to cover all capitilzation 
+use a nested for loop to compare elements of the string to eachother
+if they match return false if they dont return true
