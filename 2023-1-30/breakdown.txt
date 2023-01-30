@@ -1,0 +1,20 @@
+Nathan loves cycling.
+
+Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+
+You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+
+For example:
+
+P:
+what if we are given an argument of null or NaN or a string
+R: 
+for every hour Nathan cycles he consumes .5 liters of water. Return how many litres of water he drinks per workout
+E:
+given 1 hour of workout should return .5
+given 2 hour of workout should return 1
+given 4 hour of workout should return 2
+P:
+create a function that takes in hours of cycling as the parameter
+do da maths
+return da answer
