@@ -1,0 +1,19 @@
+JavaScript Arrays support a filter function (starting in JavaScript 1.6). 
+Use the filter functionality to complete the function given.
+
+The solution would work like the following:
+
+getEvenNumbers([2,4,5,6]) // should == [2,4,6]
+
+P:
+what if we are given null or an array of strings
+R: 
+should return only the even numbers of an array by using the filter method
+E:
+given 1 2 3 should return 2
+given 1 2 3 6 9 10 should return 2 6 10
+given 58 59 60 61 should return 58 60
+P:
+create a function that takes in an array as a parameter
+use the filter method on the parameter
+filter even numbers out and return them 
