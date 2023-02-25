@@ -1,0 +1,20 @@
+Create a method sayHello/say_hello/SayHello that takes as input a name, city, 
+and state to welcome a person. Note that name will be an array consisting of 
+one or more values that should be joined together with one space between each, and the length of the name array in test cases will vary.
+
+Example:
+
+sayHello(['John', 'Smith'], 'Phoenix', 'Arizona')
+This example will return the string Hello, John Smith! Welcome to Phoenix, Arizona!
+
+P:
+what if we are given null or numbers in the parameter
+R:
+should return the appropriate sentence 
+E:
+given brian segu brick nj, should return Hello, Brian Segu! Welcome to Brick, nj
+P:
+create a function that accepts an array of names, and a a city / state
+Join the names with the .join method to avoid comma seperated values
+use literal connotation to acccess variables
+return correct string
