@@ -1,0 +1,19 @@
+Create a class Ball. Ball objects should accept 
+one argument for "ball type" when instantiated.
+
+If no arguments are given, ball objects 
+should instantiate with a "ball type" of "regular."
+
+P:
+what if we are passed numbers
+R:
+should return regular as a default ball value or the value of ball when passed
+E:
+given nothing return regular
+given super return super
+given amazing return amazing
+P:
+create a class Ball that takes one argument for ball type when instantiated
+check to see if an argument is given
+if it is return the argument
+if not return regular
