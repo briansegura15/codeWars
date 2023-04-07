@@ -1,0 +1,14 @@
+In this simple assignment you are given a number and have to make it negative. 
+But maybe the number is already negative?
+
+P: what if we are given a str
+R:
+should return the number in negative form 
+E:
+given 3 return -3
+given 0 return 0
+given -19 return -19
+P:
+create a function that takes in a number as a parameter
+use conditionals to check if that number is pos or negative
+return number in neg form
