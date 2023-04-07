@@ -1,0 +1,14 @@
+Complete the solution so that it reverses the string passed into it.
+
+            P:
+            what if we are given null or NaN
+            R: 
+            should return the given string in reverse order
+            E:
+            given hi should return ih
+            given bye should return eyb
+            given racecar should return racecar
+            P:
+            create a function that takes in a str as a param
+            use the reverse method on the parameter
+            return reversed str
