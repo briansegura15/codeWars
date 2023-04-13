@@ -1,0 +1,20 @@
+You get an array of numbers, 
+return the sum of all of the positives ones.
+
+Example [1,-4,7,12] => 1 + 7 + 12 = 20
+
+Note: if there is nothing to sum, the sum is default to 0.
+
+P: 
+what if we are given chars or null
+R: 
+should return the sum of all positive integers in the array
+E:
+given [1 2 3] should return 6
+given [-1 -2 3] should return 3
+given [] should return 0
+P:
+create a function that takes an array as a parameter
+iterate thru the array to check if integers are positive or negative
+add up positives
+return sum
