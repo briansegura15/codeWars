@@ -1,0 +1,16 @@
+It's pretty straightforward. Your goal is to create a function 
+that removes the first and last characters of a string. You're given one parameter, 
+the original string. You don't have to worry with strings with less than two characters.
+
+P:
+what if we are given null or integers
+R: 
+should return the string with the first and last element removed
+E:
+given what should return ha
+given hello should return ell
+given brian should return ria
+P:
+create a function that takes in a string as a parameter
+apply ruby methods to modify string accordingly
+return modified string
