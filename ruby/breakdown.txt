@@ -1,0 +1,23 @@
+Write a function get_char() / getChar() 
+which takes a number and returns 
+the corresponding ASCII char for that value.
+
+Example:
+
+get_char(65)
+should return:
+
+'A'
+
+P:
+what if we are given null or NaN
+R:
+should return the char of the value in ASCII
+E:
+given 65 should return A
+66 b
+67 c
+P:
+create a function that takes in a character as a parameter
+use a method to translate to ASCII 
+return result
