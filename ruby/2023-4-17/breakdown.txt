@@ -1,0 +1,19 @@
+Introduction
+The first century spans from the year 1 
+up to and including the year 100, the second century 
+- from the year 101 up to and including the year 200, etc.
+
+Task
+Given a year, return the century it is in.
+
+P:
+what if we are given a string or null as the parameters
+R:
+should return the century of the year given as the argument
+E:
+given 1956 should return 20th century
+given 1985 should return 20th
+given 2012 should return 21st
+P:
+create a function that takes in an integer as an argument
+apply arithmatic and return correct answer
