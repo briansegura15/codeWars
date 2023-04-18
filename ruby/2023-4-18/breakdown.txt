@@ -1,0 +1,21 @@
+Complete the square sum function so that it 
+squares each number passed into it and then 
+sums the results together.
+
+For example, for [1, 2, 2]
+ it should return 9 because 1^2 + 2^2 + 2^2 = 9
+
+
+P:
+what if we are given null or strings
+R:
+should return the sum of all integers in the array after they have been squared
+E:
+given 2 2 2 should return 12
+given 3 3 3 should return 27
+given 10 10 10 should return 300
+P:
+create a function that takes in an array of numbers as a parameter
+map through each element in said array and square those elements
+sum up all the new elements with the .sum method
+return sum
