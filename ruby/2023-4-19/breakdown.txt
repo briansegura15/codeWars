@@ -1,0 +1,17 @@
+Make a function that returns the value multiplied by 50 and increased by 6. 
+If the value entered is a string it should return "Error".
+
+
+
+P:
+what if we are given a string or null?
+R:
+should return the integer * 50 + 6
+E:
+given 1 should return 56
+given 2 should return 106
+given hi should return Error
+P:
+create a function that takes in an integer as a parameter
+apply conditional logic and arithmetic 
+return correct answer
