@@ -1,0 +1,20 @@
+Find Mean
+Find the mean (average) of a list of numbers in an array.
+
+Information
+To find the mean (average) of a set of 
+numbers add all of the numbers together and
+ divide by the number of values in the list.
+
+ P:
+ what if we are given null or strings as input
+ R:
+ should return the mean of a given array
+ E:
+ given 1 2 3 should return 2
+ given 4 5 6 should return 5
+ given 2 4 6 8 10 12 14 should return 8
+ P:
+ create a function that takes in an array as a parameter
+ find the mean of all the integers in the array
+ return the mean
