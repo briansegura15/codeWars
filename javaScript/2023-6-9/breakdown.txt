@@ -1,0 +1,16 @@
+["h","o","l","a"]
+
+Output: String with comma delimited elements of the array in th same order.
+
+"h,o,l,a"
+
+P:
+what if we are given null?  
+R: 
+should return elements of the array in string format with commas between elements
+E:
+given [h i i i i] should return "h, i, i,i,i"
+P:
+create a function that takes in an array
+join the array by commas
+return array after joining
