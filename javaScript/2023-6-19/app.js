@@ -11,4 +11,4 @@ function replace(s){
       }
     }
     return replacedString;
-    
+}
