@@ -1,0 +1,21 @@
+You probably know the "like" system from Facebook 
+and other pages. People can "like" blog posts, 
+pictures or other items. We want to create the 
+text that should be displayed next to such an item.
+
+Implement the function which takes an array 
+containing the names of people that like an item. 
+It must return the display text as shown in the 
+examples:
+
+P:
+what if we are given null or void 
+R: should return the correct message according to who liked the image
+E:
+given an array of names that like the image [bri qui lo] should return bri, qui and lo like this
+given john max should return john and max like this
+given alex jacbon mark max should return alex, jacbon and 2 others like this
+P:
+create a function that takes in an array
+use conditionals to see how many elements are in the array
+return the correct statement depending on the number of elements
