@@ -1,0 +1,18 @@
+Description
+We need a function that can transform a string 
+into a number. What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, 
+and every string is a perfectly valid representation 
+of an integral number.
+
+P:
+what if we are given null or NaN
+R:
+should return whatever string we are given in numerical form
+E:
+given "123" should return 123
+P:
+Create a function that takes in a string as a parameter
+modify that string in order to return its integer form
+return integer form
