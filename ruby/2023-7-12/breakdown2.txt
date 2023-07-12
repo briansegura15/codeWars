@@ -1,0 +1,19 @@
+You have an award-winning garden 
+and every day the plants need exactly 40mm of water. 
+You created a great piece of JavaScript to calculate the 
+amount of water your plants will need when you have taken 
+into consideration the amount of rain water that is forecast 
+for the day. Your jealous neighbour hacked your computer and f
+illed your code with bugs.
+
+Your task is to debug the code before your plants die!
+
+P:
+what if we are given no number at all or NaN
+R:
+should return the correct statement after debugging
+E:
+P:
+create a function that takes in milimeters as a parameter
+use conditional logic to check if the mms given are more or less than the required 40 mms
+return correct statement
