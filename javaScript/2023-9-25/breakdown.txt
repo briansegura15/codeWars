@@ -1,0 +1,20 @@
+This time no story, no theory. The examples below show you how to write function accum:
+
+Examples:
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+The parameter of accum is a string which includes only letters from a..z and A..Z.
+
+P:
+what if we are given numbers or null as a parameter
+R:
+should return the parameter supplied broken down into the result provided
+E:
+examples above
+P:
+create a function accum that takes in a string as a parameter
+split the string into an array of elements
+map over each element of the array and capitalize the first letter as well as return the letter x times according the its position in the index
+rejoin the array of elements with a -
+return the result
