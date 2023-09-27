@@ -1,0 +1,22 @@
+Given an array of integers.
+
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+Example
+For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+
+P:
+if we are given null or empty return empty array (check this first bittch)
+R: 
+should return the count of positive nums and sum of negative nums
+E:
+above 
+P:
+create a function that takes in an array
+check for null or empty first 
+create an array of negative nums
+add up negative nums
+count of positive nums
+return an array with positive count and sum of negs
