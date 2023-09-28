@@ -1,0 +1,17 @@
+Write a small function that returns the values of an array that are not odd.
+
+All values in the array will be integers. Return the good values in the order they are given.
+
+P:
+what if the parameters are null or NaN 
+R:
+Should return the array with no odd numbers
+E:
+given [1, 2, 3, 4, 5, 6]
+should return [2, 4, 6]
+P:
+create a function that takes in an array as a parameter
+use a loop to iterate over every element of the array
+use a conditional to check if element of the array is even
+if it is push element to result array
+return positive only result array
