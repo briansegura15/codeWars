@@ -1,0 +1,29 @@
+Task:
+Given a list of integers, determine whether the sum of its elements is odd or even.
+
+Give your answer as a string matching "odd" or "even".
+
+If the input array is empty consider it as: [0] (array with a zero).
+
+Examples:
+Input: [0]
+Output: "even"
+
+Input: [0, 1, 4]
+Output: "odd"
+
+Input: [0, -1, -5]
+Output: "even"
+Have fun!
+
+P:
+we are given the edge case to check if the array is empty
+R:
+should return odd or even according to the sum of the elements of the array
+E:
+check above
+P:
+create a function that takes an array as an argument
+use the reduce method on the array in order to add up the elements of said array
+use conditional logic to check if the array is even empty or odd
+return appropriate answer
