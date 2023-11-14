@@ -1,0 +1,21 @@
+Don't give me five!
+In this kata you get the start number and the end number of a region and should return the count of all numbers except numbers with a 5 in it. The start and the end number are both inclusive!
+
+Examples:
+
+1,9 -> 1,2,3,4,6,7,8,9 -> Result 8
+4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
+The result may contain fives. ;-)
+The start number will always be smaller than the end number. Both numbers can be also negative!
+
+P:
+what if we have NaN or null
+R:
+should return a count of all the numbers in the range except numbers with 5 in it
+E: 
+above
+P:
+create a function that accepts a start and end numbers as parameters
+create an empty array to be the holder for your result
+use a for loop to go through the array, convert the iteration of the number to a string to check against 5 and not include it if it is.
+return result.length of it.
