@@ -1,0 +1,12 @@
+Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
+
+P:
+what if we are given null or NaN
+R:
+should return the result of multiplying values together
+E:
+given 1 2 3 should return 6
+P:
+create a function that takes in an array as a parameter
+use the reduce function with the right values to multiply each value by the last
+return it
