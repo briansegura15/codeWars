@@ -1,0 +1,18 @@
+It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
+
+Return the average of the given array rounded down to its nearest integer.
+
+The array will never be empty.
+
+P:
+what if we are given a negative value or NaN
+R:
+should return the average of the grades array rounded down
+E:
+given 1 2 3 should return 2
+P:
+create a function that takes in array as a parameter   
+iterate through and add the array elements together
+divide by the length of the array to find the average
+use the Math.floor method to round down
+return result
