@@ -1,0 +1,15 @@
+I'm new to coding and now I want to get the sum of two arrays... Actually the sum of all their elements. I'll appreciate for your help.
+
+P.S. Each array includes only integer numbers. Output is a number too.
+
+P:
+what if we are given null or a negative number
+R:
+should return the result of adding both array integers together
+E:
+given 1 2 3 and 1 2 3 should return 12
+P:
+create a function that takes in 2 arrays as parameters
+combine both arrays with the concat method
+add all the elements in the new unified array together using reduce
+return the result
