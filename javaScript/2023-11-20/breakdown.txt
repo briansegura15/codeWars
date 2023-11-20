@@ -1,0 +1,20 @@
+You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but your son is too young to just appreciate the full number, he has to start counting them from 1.
+
+As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
+
+For example(Input --> Output):
+
+10 --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ 1 --> [1]
+
+P:
+what if parameters are empty or 0 or null or NaN
+R:
+should return an array with all the numbers up to and including the parameter provided
+E:
+above
+P:
+create a function that takes in a number
+create an empty array to push to
+use a for loop to go through the array and push the numbers to the empty array
+return array
