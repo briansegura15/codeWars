@@ -1,0 +1,14 @@
+For every good kata idea there seem to be quite a few bad ones!
+
+In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
+
+R:
+should return Publish I smell a series or Fail according to the amount of times that good is present in the array
+E:
+given good bad bad bad should return Publish
+given good bad bad good should return i smell a series
+given bad should return Fail
+P:
+create a function that takes in an array of strings as a parameter
+establish which words you are looking for in the array
+return the correct string statement accordingly
