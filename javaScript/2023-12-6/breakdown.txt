@@ -1,0 +1,23 @@
+Return an array containing the numbers from 1 to N, where N is the parametered value.
+
+Replace certain values however if any of the following conditions are met:
+
+If the value is a multiple of 3: use the value "Fizz" instead
+If the value is a multiple of 5: use the value "Buzz" instead
+If the value is a multiple of 3 & 5: use the value "FizzBuzz" instead
+N will never be less than 1.
+
+
+P:
+edgecase addressed above
+R:
+should return correct value according to divisibility
+E:
+address above
+P:
+create a function that takes in a number as a parameter
+creata an empty array for the result
+use a for loop to iterate until the number
+use conditionals to check divisibility
+if
+
