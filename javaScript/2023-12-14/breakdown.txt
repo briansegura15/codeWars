@@ -1,0 +1,18 @@
+If you can't sleep, just count sheep!!
+
+Task:
+Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid, i.e. no negative integers.
+
+P:
+what if we recieve null, edgecases sortof defined
+R:
+return defined above
+E:
+example given above
+P:
+create a function that takes in a number as a parameter 
+check that its not a negative number
+create a holder such as an empty string or empty array
+create a for loop to iterate until the given number
+push iteration with sheep ... to the result holder
+return result
