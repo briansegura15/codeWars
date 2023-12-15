@@ -1,0 +1,26 @@
+Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems. It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
+
+Ribonucleic acid, RNA, is the primary messenger molecule in cells. RNA differs slightly from DNA its chemical structure and contains no Thymine. In RNA Thymine is replaced by another nucleic acid Uracil ('U').
+
+Create a function which translates a given DNA string into RNA.
+
+For example:
+
+"GCAT"  =>  "GCAU"
+The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
+
+P:
+edgecases defined above
+R:
+return value defined above
+E:
+example given above
+P:
+create a function that takes in a string
+in that string change every occurence of T to U
+we can instantiate a result array
+turn the string into an array
+iterate over the array with a for loop
+every time T shows up change it to U and push it to the array
+else just push current iteration to array
+rejoin the array into a string and return it
