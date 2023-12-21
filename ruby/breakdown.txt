@@ -1,0 +1,19 @@
+Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index 0 will be considered even.
+
+For example, capitalize("abcdef") = ['AbCdEf', 'aBcDeF']. See test cases for more examples.
+
+The input will be a lowercase string with no spaces.
+
+Good luck!
+
+P:
+edgecases defined   
+R:
+return should be the string in alternating capilitaztion sequence
+E:
+given above
+P:
+create a function that takes in a string as parameter
+split that string and use the map with index method
+use a ternary to check if the index is odd or even and capitlize accordingly
+use the nify swapcase to return both versions of capilitaztion
