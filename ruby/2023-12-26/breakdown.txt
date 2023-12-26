@@ -1,0 +1,20 @@
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Examples
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"
+don't worry about uppercase vowels
+y is not considered a vowel for this kata
+
+P:
+what if we are given null or empty
+R:
+should return the string without vowels in input
+E:
+given above
+P:
+create a functioon that takes in a string as a parameter
+filter out the vowels out the string
+return the new string
