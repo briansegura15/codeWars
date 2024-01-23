@@ -1,0 +1,17 @@
+Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+Example(Input => Output):
+35231 => [1,3,2,5,3]
+0 => [0]
+
+P:
+what if parameters are null or NaN
+R:
+shown above
+E:
+given above
+P:
+create a function that takes in an integers
+transform integer into an array of integers
+reverse array
+return array
