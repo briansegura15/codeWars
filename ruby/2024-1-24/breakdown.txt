@@ -1,0 +1,15 @@
+In this simple exercise, you will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit will always be higher than the base.
+
+For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+P:
+what if arguments are letters
+R:
+should return an array with multiples of the first agument up to and including the 2nd argument if applicable
+E:
+given above
+P:
+create a function that takes in 2 integers as functions
+the second integer is the limit and the first integer is the iterating number
+find all the multiples of the iterating number up to the limit number by using a loop
+return the result
