@@ -1,0 +1,32 @@
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+ 
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+Output: true
+Example 2:
+
+Input: s = "rat", t = "car"
+Output: false
+
+P:
+what if we are given numbers or Null
+R:
+true of false
+E:
+given above
+P:
+create a function that takes in 2 strings as parameters
+break out of the function right away if the length of both strings are not the same
+create an array full of 0s
+iterate over the array with a for loop
+-97 from every element in the first string and add that to the array
+-97 from every element in the second string and subtract that to the array
+return the array if every element in the array is 0 
+if they are all 0 this would indicate true
+(that was Judy's hardcore solution)
+mine involved splitting the strings into an arrays, sorting the array in order, joining the array back together and then comparing both of those strings together 
