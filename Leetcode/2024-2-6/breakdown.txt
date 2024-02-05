@@ -1,0 +1,30 @@
+Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+
+ 
+
+Example 1:
+
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+Example 2:
+
+Input: nums = [1], k = 1
+Output: [1]
+
+P:
+what if elements are null or 0 or NaN
+R:
+shuold return the k most frequent elements
+E:
+given above
+P:
+create a function that takes in an array of nums and an integer for k as parameters
+create a hashmap
+iterate over the nums array and push the values to the hash map
+if the current element exists increment its value which is the amount that said element appears by 1
+if it does not exists in the hashmap then give it a value of 1 apparitions
+after our hashmap is established we are to return our answer from that hash
+convert the hashmap into an array of key value pairs
+sort the entries by the values(frequency) of all entries in descending order
+after sorting extract only the keys from the sorted array transforming the key value pair into just key
+use the slice method to return from 0 in the newest array up to k
