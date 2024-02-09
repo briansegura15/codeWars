@@ -1,0 +1,24 @@
+Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index 0 will be considered even.
+
+For example, capitalize("abcdef") = ['AbCdEf', 'aBcDeF']. See test cases for more examples.
+
+The input will be a lowercase string with no spaces.
+
+Good luck!
+
+P:
+will we be given an empty array? what if we are given a number?
+R:
+should return the supplied string with all even indexes in caps and all odd indexes in caps seerpately
+E:
+given above
+P:
+create a fucntion that takes in a string as a parameter
+split the string by "" in order to turn it into an array of chars
+create a holder array for the evens
+create a holder array for the odds
+loop through the array of chars and check each index
+if index is even push said index element to array holder including the lowercase odds
+if index is odd push said index element to array holder including the lowercase evens
+rejoin both arrays to turn into strings
+return both strings inside an array
