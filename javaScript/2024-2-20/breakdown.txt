@@ -1,0 +1,19 @@
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+If the function is passed a valid PIN string, return true, else return false.
+
+Examples (Input --> Output)
+"1234"   -->  true
+"12345"  -->  false
+"a234"   -->  false
+
+P:
+will we be given a string? will we ever be given null or NaN?
+R:
+should return true or false according to whether the regex passes or fails
+E:
+given above
+P:
+create a function that takes in a pin as a parameter
+create a regex that checks for 4 digits or 6 digits explicitly 
+use the .test method to return true or false accordingly
