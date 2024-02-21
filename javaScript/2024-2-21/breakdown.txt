@@ -1,0 +1,24 @@
+You will be given an array of objects (associative arrays in PHP) representing data about developers who have signed up to attend the next coding meetup that you are organising.
+
+Your task is to return:
+
+true if at least one Ruby developer has signed up; or
+false if there will be no Ruby developers.
+For example, given the following input array:
+
+var list1 = [
+  { firstName: 'Emma', lastName: 'Z.', country: 'Netherlands', continent: 'Europe', age: 29, language: 'Ruby' },
+  { firstName: 'Piotr', lastName: 'B.', country: 'Poland', continent: 'Europe', age: 128, language: 'Javascript' },
+  { firstName: 'Jayden', lastName: 'P.', country: 'Jamaica', continent: 'Americas', age: 42, language: 'JavaScript' }
+];
+
+P:
+will we ever be given null or nan or empty objects
+R:
+should return true if a developer uses ruby, false otherwise
+E:
+given above
+P:
+create a function that takes in an array of objects as a parameter
+use the .some method to iterate over the array checking the .language propertie's value
+if that value is ruby the .some will break out of the iteration and return true, if not itll return false
