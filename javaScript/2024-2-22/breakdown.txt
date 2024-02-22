@@ -1,0 +1,17 @@
+When provided with a letter, return its position in the alphabet.
+
+Input :: "a"
+
+Ouput :: "Position of alphabet: 1"
+
+P:
+what if we are given a number or nan or null        
+R:
+should return the position of the letter on the alphabet
+E:
+given above
+P:
+create a function that takes in a letter as a parameter
+use charcodeat to find its ascii value
+subtract 96 from it in order to have its value start at 1 for a 2 for b and so on
+return the modified ascii value
