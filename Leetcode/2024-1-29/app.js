@@ -2,7 +2,7 @@ var containsDuplicate = function (nums) {
   //   let sortedNums = nums.sort((a, b) => a - b);
   let set = new Set(nums);
   console.log(set);
-  return set.size === nums.length;
+  return set.size !== nums.length;
 };
 
 [1, 2, 3, 1];
