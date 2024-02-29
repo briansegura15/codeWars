@@ -1,0 +1,21 @@
+Color Ghost
+Create a class Ghost
+
+Ghost objects are instantiated without any arguments.
+
+Ghost objects are given a random color attribute of "white" or "yellow" or "purple" or "red" when instantiated
+
+ghost = new Ghost();
+ghost.color //=> "white" or "yellow" or "purple" or "red"
+
+P:
+will the color ever be anything besides a sorting
+R:
+should return a new ghost with a color 
+E:
+given above
+P:
+create a ghost class that takes no arguments
+create an array of color options inside the object
+create a color randomizer
+use this.color to use the color randomizer to iterate over the array of colors to return a new color when a new Ghost class is instantiated.
