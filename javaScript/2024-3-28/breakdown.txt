@@ -1,0 +1,24 @@
+write me a function stringy that takes a size and returns a string of alternating 1s and 0s.
+
+the string should start with a 1.
+
+a string with size 6 should return :'101010'.
+
+with size 4 should return : '1010'.
+
+with size 12 should return : '101010101010'.
+
+The size will always be positive and will only use whole numbers.x
+
+P:
+what if we are given a word or chars
+R:
+should return 1s and 0s according to the size argument
+E:
+given above
+P:
+create a function that takes in a number as a param
+establish the return string with "1"
+iterate over the number in the argument
+for every integer that is even add a 0 to the string else add a 1 to the string
+return string
