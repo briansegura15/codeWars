@@ -1,0 +1,17 @@
+DESCRIPTION:
+Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+
+Examples
+"www.codewars.com#about" --> "www.codewars.com"
+"www.codewars.com?page=1" -->"www.codewars.com?page=1"
+
+P:
+what if we are given numbers or null
+R:
+should return the string/url with no # and nothing after it
+E:
+given above
+P:
+create a function that takes in a url as a param
+use regex to replace anything after the # with an empty string
+return new string
