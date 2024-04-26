@@ -1,0 +1,15 @@
+Write a function that takes in a string of one or more words, and returns the same string, but with all words that have five or more letters reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+P:
+what if we are given integers on null as a param
+R:
+should return the words and if one of the words in said words is longer than 5 characters, it should be reversed.
+E:
+given "Hi how you doin buddy" should return "Hi how you doin yddub"
+given "I am going to have a swe job" should return "I am gniog to have a swe job"
+given "Fallout is a great series" should return "toullaF is a taerg seires"
+P:
+create a function that takes in a string as a param
+split that string so that words are seperated and can be manipulated
+iterate over said words and check if their length is longer than 5, if it is, reverse that word
+rejoin the split string so that words as back together in 1 string
