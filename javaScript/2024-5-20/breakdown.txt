@@ -1,0 +1,16 @@
+A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
+
+Return true if yes, false otherwise :)
+
+P:
+what if we are given null or NaN
+R:
+should return true or false
+E: 
+given 10 bullets and 5 dragons should return true
+given 4 bullets and 5 dragons should return false
+given 15 bullets and 7 dragons should return true
+P:
+create a function that takes in 2 params, bullets and dragons
+if you have 2 bullets for every dragon, return true
+return false otherwise
